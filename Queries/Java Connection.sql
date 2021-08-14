@@ -1,0 +1,9 @@
+--CREATE DATABASE Records;
+--GO
+
+/*CREATE TABLE Student(
+	Name VARCHAR(20),
+	UID VARCHAR(9)
+);*/
+
+SELECT * FROM Student;
