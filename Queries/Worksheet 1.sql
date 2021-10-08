@@ -155,9 +155,6 @@ SELECT *
 FROM Employee;*/
 GO
 
-
-
-
 /*CREATE TABLE Assignment1.dbo.employee
 (
 	ename VARCHAR(30),
@@ -176,13 +173,10 @@ VALUES('Prakash', 'HKBJN67', 'Marketing', 69000),
 --SELECT *
 --FROM Assignment1.dbo.employee;
 
-
 /*SELECT dep_name, COUNT(dep_name)
 AS 'Number of Employees'
 FROM Assignment1.dbo.employee
 GROUP BY dep_name;*/
-
-
 
 /*
 SELECT dep_name, AVG(salary)
@@ -193,16 +187,8 @@ GROUP BY dep_name;*/
 INSERT INTO Assignment1.dbo.employee
 VALUES('Higa', 'HUD61Q7', 'Physics', 81000);
 
-
-
-
-
 SELECT TOP(1) ename, salary
 FROM Assignment1.dbo.employee
 WHERE dep_name = 'Physics'
 ORDER BY salary
 DESC;
-
-
-
-
